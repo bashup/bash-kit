@@ -8,7 +8,7 @@ This is a docker image for compatibility-testing [.devkit](https://github.com/ba
 * `git` (to fetch dependencies)
 * `entr` and `modd` (to support .devkit's `watch` command)
 * `jq`, `yaml2json` and `py-yaml` (for [jqmd](https://github.com/bashup/jqmd))
-* `php5` as `php` (for testing [imposer](https://github.com/dirtsimple/imposer))
+* `php7` as `php` (for testing [imposer](https://github.com/dirtsimple/imposer))
 * `go` and `musl-dev` (for building go-based dependencies)
 * `shellcheck` (for linting shell scripts)
 

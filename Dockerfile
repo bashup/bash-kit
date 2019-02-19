@@ -6,8 +6,8 @@ COPY --from=tools /bin/* /usr/bin/
 
 ENV SHELL=/usr/local/bin/bash
 RUN mkdir /workdir \
-    && apk add --no-cache entr git jq less ncurses php5 php5-cli python py-pygments py-yaml go musl-dev \
-    && ln -s /usr/bin/php5 /usr/local/bin/php
+    && apk add --no-cache entr git jq less ncurses php7 python py-pygments py-yaml go musl-dev \
+    && ln -s /usr/bin/php7 /usr/local/bin/php
 
 WORKDIR /workdir
 

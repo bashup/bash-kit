@@ -11,6 +11,7 @@ This is a docker image for compatibility-testing [.devkit](https://github.com/ba
 * `php7` as `php` (for testing [imposer](https://github.com/dirtsimple/imposer))
 * `go` and `musl-dev` (for building go-based dependencies)
 * `shellcheck` (for linting shell scripts)
+* `coreutils` (for a `touch -r` command that works correctly with bash 5 timestamp comparison)
 
 By default, it builds from bash 3.2, but you can set `--build-arg BASH_VER=some.version` to create an image based on a specific bash version.  It has a work directory called `/workdir`, so mounting `$PWD` to `/workdir` will let you run things from the current directory.
 

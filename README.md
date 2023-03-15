@@ -18,7 +18,7 @@ By default, it builds from bash 3.2, but you can set `--build-arg BASH_VER=some.
 To use it interactively on the command line, just do, e.g.:
 
 ```shell
-docker run --rm -it -v "$PWD:/workdir" bashitup/bash-kit:3.2
+docker run --rm -it -v "$PWD:/workdir" ghcr.io/bashup/bash-kit:3.2
 ```
 
-(Or whatever bash version you want, that's available in the [current tags](https://hub.docker.com/r/bashitup/bash-kit/tags/).)
+(Or whatever bash version you want, that's available in the [current tags](https://github.com/bashup/bash-kit/pkgs/container/bash-kit).)
